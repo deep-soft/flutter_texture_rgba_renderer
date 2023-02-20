@@ -20,7 +20,7 @@ class MockTextureRgbaRendererPlatform
   @override
   Future<bool> onRgba(int key, Uint8List data, int height, int width) =>
       Future.value(true);
-      
+
   @override
   Future<int> getTexturePtr(int key) {
     return Future.value(0);
