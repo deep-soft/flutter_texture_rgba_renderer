@@ -1,3 +1,18 @@
+## 0.0.13
+* try to fix the memory leak on macOS.
+
+## 0.0.12
+* add `stride_align`.
+
+## 0.0.11
+* compatible for ubuntu 18.04 toolchain.
+
+## 0.0.10
+* try fixing the memory corrupt issue on Linux. (change to pixel texture)
+
+## 0.0.9
+* try fixing the memory corrupt issue on Linux.
+
 ## 0.0.7
 * add the FFI function and ptr getter for macOS.
 
